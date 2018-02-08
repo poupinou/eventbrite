@@ -1,0 +1,8 @@
+<center><h1>new user</h1>
+
+	<%= form_for @user do |f| %>
+	<p><%= f.label :name %></p>
+	<p><%= f.text_field :name, class: 'form-control' %></p>
+
+	<p><%= f.submit 'sign in', class: 'btn btn-primary' %></p>
+	<%end%></center>
